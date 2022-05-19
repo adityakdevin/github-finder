@@ -1,9 +1,10 @@
 import React from 'react'
+import UserResults from '../Components/Users/Index'
 
 function Index() {
   return (
     <>
-        <h1 className='text-6xl mb-4 text-center'>Welcome to Github Finder App</h1>
+        <UserResults />
     </>
   )
 }
